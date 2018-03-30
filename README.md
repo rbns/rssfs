@@ -10,15 +10,16 @@ use my [neinp](https://github.com/rbns/neinp) go package.
 	go get github.com/rbns/rssfs
 
 ## usage
-./rssfs [OPTIONS] URL [URL URL ...]
-  -addr string
-    	listen address (default "localhost:9999")
-  -debug
-    	enable debug mode
-  -gid string
-    	gid name (default "nogroup")
-  -uid string
-    	uid name (default "nobody")
+
+	./rssfs [OPTIONS] URL [URL URL ...]
+	  -addr string
+	    	listen address (default "localhost:9999")
+	  -debug
+	    	enable debug mode
+	  -gid string
+	    	gid name (default "nogroup")
+	  -uid string
+	    	uid name (default "nobody")
 
 ### example
 
